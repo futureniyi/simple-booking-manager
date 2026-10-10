@@ -25,7 +25,7 @@ node src/index.js
 
 Follow the terminal prompts to select an action. When adding a booking or follow-up, available clients are listed and the selected client’s contact details are shown. Dates must be real calendar dates in `YYYY-MM-DD` format (for example, `2026-10-25`), and times use 24-hour `HH:mm` format (for example, `14:30`). For new bookings, follow-ups, and status updates, select a numbered status: `1. Pending`, `2. Confirmed`, `3. Completed`, or `4. Cancelled`. Invalid input is prompted again. Client and booking IDs must be unique positive whole numbers; client email and phone fields are also validated. Use option 10 to save data to `booking-data.json`, option 11 to load it, and option 12 to exit. Saving and loading are manual actions. Loading replaces the current client and booking lists and restores nested follow-ups as Booking objects.
 
-[Software Demo Video](YOUTUBE_LINK_HERE)
+[Software Demo Video](https://youtu.be/0cXxoj0DKaA)
 
 # Development Environment
 
